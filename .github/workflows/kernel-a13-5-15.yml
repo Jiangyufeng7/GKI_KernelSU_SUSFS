@@ -27,7 +27,7 @@ on:
         description: "自定义构建时间 (可选，N或留空=当前UTC)"
         required: false
         type: string
-        default: "Wed Jul 2 02:41:59 UTC 2025"
+        default: "Wed Jul 02 02:41:59 UTC 2025"
       use_kpm:
         description: "KPM 功能（patched 尚不支持）"
         required: true
@@ -91,7 +91,7 @@ on:
       build_time:
         required: false
         type: string
-        default: "Wed Jul 2 02:41:59 UTC 2025"
+        default: "Wed Jul 02 02:41:59 UTC 2025"
       use_zram:
         required: true
         type: boolean
